@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+   background-image: url('https://t4.ftcdn.net/jpg/01/31/15/51/360_F_131155172_4ZVdaT7YF5yJHqircjy59DDxV6aWFds9.jpg');
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 700px;
+    height: 100px;
+    margin: auto;
+    margin-top: 50px;
+  }
+  
+  h1 {
+    margin-bottom: 15px;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    margin-bottom: 5px;
+  }
+  
+  li button {
+    background-color: #FF5733;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 3px 6px;
+    cursor: pointer;
+  }
+  /* Existing styles */
+
+/* Style the checkbox tick color */
+input[type="checkbox"] {
+     /* -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;  */
+    width: 20px;
+    height: 20px;
+    border: 2px solid #4CAF50;
+    border-radius: 3px;
+    outline: none;
+    transition: border-color 0.3s;
+  }
+  
+  input[type="checkbox"]:checked {
+    border-color: #007bff; /* Change to blue color of your choice */
+    background-color: #007bff;
+  }
+  
